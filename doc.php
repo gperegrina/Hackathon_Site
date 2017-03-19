@@ -83,7 +83,7 @@ $counter = 0;
         <div class="row">
             <div class="col-lg-12">
 				<br><br><br><br><br><br>
-				<h3>Doctor Directory</h3>
+				<h3>Psychologist  Directory</h3>
                 <!--<h1 class="page-header">Page Heading
                     <small>Secondary Text</small>
 					</h1>-->
@@ -107,12 +107,7 @@ $counter = 0;
 					<img class="img-responsive" src="img/doc<?php echo $counter ?>.png" alt="">
                 </a>
 				<h3><?php 
-						if($counter != 1){
-							echo "Dr.";
-							echo $proData['PROLAST'];
-						}	
-						else
-							echo $proData['PROLAST']; 
+						echo $proData['PROLAST'];
 				?></h3>
 				<h3><?php echo $proData['PROSPECIALTY']; ?></h3> 
 				<h3><?php echo $proData['PROGENDER']; ?></h3>

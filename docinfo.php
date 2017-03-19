@@ -45,11 +45,13 @@ $counter = 0;
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
+				</button>
+				<h4>
 				<a href="./index.html">
-				<i class="fa fa-arrow-left" style="font-size:5em" aria-hidden="true">Home Page</i>
+				<i class="fa fa-arrow-left" style="font-size:2em" aria-hidden="true">Back</i>
                 <a class="navbar-brand" href="./index.html"></a>
-				</a>	
+				</a>
+				</h4>	
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -90,23 +92,34 @@ $counter = 0;
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                <img class="img-responsive" src="./img/doc1.png" alt="">
             </div>
 
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
+			<div class="col-md-4">
+				<h3>Rosano Banagasn</h3>
+                <h3>Specialty:</h3>
+                <p>Psychology</p>
+                <h3>Group Name:</h3>
+                <p>Kern Faculty Psychiatry</p>
+				<h3>Number:</h3>
+				<p><a href="tel:6618688013">(661)-868-8013</p></a>
+				<h3>Insurance Accepted:</h3> 
+				<p>KFHC/Anthem Blue Cross</p> 
+                <!--<ul>
                     <li>Lorem Ipsum</li>
                     <li>Dolor Sit Amet</li>
                     <li>Consectetur</li>
                     <li>Adipiscing Elit</li>
-                </ul>
+				</ul> 
+				-->
             </div>
 
-        </div>
-        <!-- /.row -->
+
+
+		</div>
+		<!-- /.row -->
+		<br><br><br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.891854263206!2d-118.97210619959395!3d35.38313814232944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea6be22187e93b%3A0x7ecc6e8ee2c7cd59!2s1700+Mt+Vernon+Ave%2C+Bakersfield%2C+CA+93306!5e0!3m2!1sen!2sus!4v1489942377628" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 
 	<!-- Footer -->
