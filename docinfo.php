@@ -47,7 +47,7 @@ $counter = 0;
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 				</button>
 				<h4>
-				<a href="./index.html">
+				<a href="./doc.php">
 				<i class="fa fa-arrow-left" style="font-size:2em" aria-hidden="true">Back</i>
                 <a class="navbar-brand" href="./index.html"></a>
 				</a>
