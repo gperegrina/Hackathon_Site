@@ -1,0 +1,34 @@
+<!DOCTYPE html>  <!--PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Calculate driving distance with Google Maps API</title>
+  <!--  <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAwk8Uo9ZkiYLo0bvznt5qbxS0fmsgnMxnrcWKglYCnXntU3LFdxT1T4fzWClpC8GEnLS-QqpemIG3fg" type="text/javascript"></script> -->
+<!--  <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyA3Bs1qfCVrAdp_SuU9mql_tY42yyMgS0k" type="text/javascript"></script> -->
+    <!-- According to the Google Maps API Terms of Service you are required display a Google map when using the Google Maps API. see: http://code.google.com/apis/maps/terms.html -->
+
+</head>
+
+<body>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3Bs1qfCVrAdp_SuU9mql_tY42yyMgS0k&callback=initMap" type="text/javascript"></script>
+
+  <script type="text/javascript" src="js/mapsAPI.js">
+
+
+  </script>
+
+Source:
+<input type="text" id="txtSource" value="Arvin, Ca" style="width: 200px" />
+Destination:
+<input type="text" id="txtDestination" value="Bakersfield, Ca" style="width: 200px" />
+<br />
+<input type="button" value="Get Route" onclick="GetRoute()" />
+<hr />
+
+<div id="dvDistance">
+</div>
+</body>
+
+</html>
